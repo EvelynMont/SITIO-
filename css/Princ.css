@@ -1,0 +1,36 @@
+body {background-color: #ddd;}
+
+h1 {
+    color: #333;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+h2 {
+  color :6A2D2B ; 
+  font-family: 'Courier New', Courier, monospace;
+}
+p,ul
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px ;
+}
+.frase
+{
+  text-align: right;
+  color:aqua;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+}
+footer
+{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: silver;
+}
+main
+{
+  padding: 16px;
+  margin:30px;
+}

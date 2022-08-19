@@ -1,0 +1,36 @@
+/*https://www.w3schools.com/howto/howto_js_topnav.asp 
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+*/
+
+/* Add a black background color to the top navigation */
+body {margin:0;}
+
+.topnav {
+    background-color: rgb(8, 1, 7);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ce9191;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(10, 7, 9);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #33a0df;
+  color: white;
+}

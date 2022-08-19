@@ -1,0 +1,44 @@
+body {
+  background-color: #52f1bc6b;
+}
+
+h1 {
+    color: #700808;
+    font-family: 'Coiny', cursive;
+    text-align: center;
+}
+
+h2 {
+    color: ; #7d273d;
+    font-family: 'Coiny', cursive;
+}
+
+p,ul {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.frase {
+    text-align: right;
+    color: #d84113;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #eb7082;
+   color: rgb(77, 228, 215);
+   text-align: center;
+}
+
+main {
+  padding: 16px;
+  margin-top: 30px;
+}
